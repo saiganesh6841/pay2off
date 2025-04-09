@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fef7ef !important;
+  font-family: "Readex Pro", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}

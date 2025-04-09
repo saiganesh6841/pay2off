@@ -1,0 +1,47 @@
+.page-card-container {
+  width: 400px;
+  height: 135px;
+  background-color: #ffffff;
+  //   padding: 20px 30px;
+  padding: 16px;
+  border-radius: 14px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 2px 8px 0px #00000014;
+  cursor: pointer;
+  margin-right: 25px;
+}
+.page-card-container:hover {
+  background-color: #fbfbfb;
+}
+
+.page-card-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.page-card-content {
+  color: #5c5c5c;
+  font-size: 14px;
+  font-weight: 400;
+  width: 60%;
+  line-height: 22px;
+  margin-top: 8px;
+}
+.page-card-image {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.page-card-pointer {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background-color: #ffffff;
+  bottom: -16px;
+  left: 45%;
+  transform: rotate(45deg);
+}
